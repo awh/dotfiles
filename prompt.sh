@@ -6,7 +6,7 @@ Color_Off=$(tput sgr0)
 ###-Regular-###
 Red="\[\033[0;31m\]"
 Green="\[\033[0;32m\]"
-Purple="\[\033[0;35\]"
+Purple="\[\033[0;35m\]"
 ####-Bold-####
 BRed="\[\033[1;31m\]"
 BPurple="\[\033[1;35m\]"
