@@ -4,12 +4,12 @@
 ##-ANSI-COLOR-CODES-##
 Color_Off=$(tput sgr0)
 ###-Regular-###
-Red="\[\033[0;31m\]"
-Green="\[\033[0;32m\]"
-Purple="\[\033[0;35m\]"
+Red=$(tput setaf 1)
+Green=$(tput setaf 2)
+Purple=$(tput setaf 5)
 ####-Bold-####
-BRed="\[\033[1;31m\]"
-BPurple="\[\033[1;35m\]"
+BRed=$(tput bold; tput setaf 1)
+BPurple=$(tput bold; tput setaf 5)
 
 # set up command prompt
 function __prompt_command()
